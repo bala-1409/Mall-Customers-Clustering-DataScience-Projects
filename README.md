@@ -12,8 +12,21 @@ The dataset is provided in a CSV (Comma Separated Values) format, where each row
   Annual income of the customer in monetary units.
 + ### Spending Score:
   A score assigned to the customer based on their shopping behavior and spending patterns.
-
 The dataset aims to identify meaningful customer segments or clusters based on their demographic information and spending behavior.
+## Observation:
+Based on the analysis of the Mall Customer Cluster Dataset, the following observations can be made:
+
+* ### Gender Distribution:
+  The dataset provides insights into the gender distribution of mall customers, allowing for an examination of potential gender-based shopping preferences.
+
+* ### Age Distribution:
+  The age distribution of mall customers can be observed, providing information on the age groups that frequent the mall.
+
+* ### Income Variation:
+  The dataset includes annual income information, allowing for the analysis of income differences among customers and its potential influence on spending behavior.
+
+* ### Spending Score:
+  The spending score assigned to customers indicates their shopping behavior and spending patterns, enabling the identification of potential high-value customers or different customer segments.
 ## Problem Statement:
 The problem addressed by the Mall Customer Cluster Dataset is to segment customers based on their shopping behavior and annual income. The dataset aims to answer questions such as:
 
@@ -36,7 +49,7 @@ The solution approach involves utilizing the Mall Customer Cluster Dataset to se
    Select relevant features that contribute significantly to customer segmentation and spending behavior, based on exploratory data analysis and domain knowledge.
 
 5. ### Customer Segmentation:
-    Apply clustering algorithms such as K-means, hierarchical clustering, or DBSCAN to group customers into distinct segments based on their spending behavior and demographic attributes.
+    Apply clustering algorithms such as K-means, hierarchical clustering into distinct segments based on their spending behavior and annual income .
 
 6. ### Cluster Analysis:
     Analyze the characteristics and traits of each customer segment to gain insights into their preferences, needs, and behaviors. Compare the clusters to identify distinct groups and their unique characteristics.
